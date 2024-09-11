@@ -1,4 +1,4 @@
 obj
 bin
 .env
-venv/
+.venv/Scripts/python.exe
