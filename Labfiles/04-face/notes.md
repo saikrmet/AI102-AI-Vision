@@ -40,11 +40,11 @@
   - Verifies that a video input is real and not spoofed.
 
 - **Face ID Retention**:
-- Detected face IDs are unique GUIDs, cached for 24 hours.
-- IDs are used for comparison and verification across images during this period.
+  - Detected face IDs are unique GUIDs, cached for 24 hours.
+  - IDs are used for comparison and verification across images during this period.
   
 - **Anonymity**:
-- Faces can be compared anonymously (useful for verifying that the same person appears at different times without knowing their identity).
+  - Faces can be compared anonymously (useful for verifying that the same person appears at different times without knowing their identity).
 
 
 #### Training a Facial Recognition Model:
@@ -52,7 +52,3 @@
 2. **Add Persons**: Add individuals to the group.
 3. **Add Faces**: Use images with varied poses for each person. These face IDs do not expire (referred to as "persisted faces").
 4. **Train the Model**: The trained model is stored in your Azure resource.
-
-- **Usage of Trained Model**:
-- **Identify** individuals in images.
-- **Verify** a detected face’s identity.
